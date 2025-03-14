@@ -9,7 +9,7 @@ const statusMessage = document.getElementById("status-message");
 
 // API de IA - Reemplaza con tu clave válida
 const API_ENDPOINT = "https://openrouter.ai/api/v1/chat/completions";
-const API_KEY = "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"; 
+const API_KEY = "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"; 
 
 // JSON de la historia
 const historia = {
@@ -75,7 +75,7 @@ async function consultarIA(escenario) {
                 "Content-Type": "application/json",
             },
             body: JSON.stringify({
-                model: "deepseek/deepseek-chat:free",
+                model: "deepseek/deepseek-r1:free",
                 messages: [
                     {
                         role: "system",
