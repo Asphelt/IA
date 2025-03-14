@@ -6,10 +6,10 @@ const gameOptions = document.getElementById("game-options");
 const option1Btn = document.getElementById("option1");
 const option2Btn = document.getElementById("option2");
 const statusMessage = document.getElementById("status-message");
-
+//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
 // API de IA - Reemplaza con tu clave válida
 const API_ENDPOINT = "https://openrouter.ai/api/v1/chat/completions";
-const API_KEY = "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"; 
+const API_KEY = "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"; 
 
 // JSON de la historia
 const historia = {
